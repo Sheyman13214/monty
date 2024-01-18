@@ -2,8 +2,8 @@
 /**
  * f_pstr - prints the string starting at the top of the stack,
  * followed by a new
- * @head: stack head
- * @counter: line_number
+ * @head: head stack
+ * @counter: line number
  * Return: no return
 */
 void f_pstr(stack_t **head, unsigned int counter)

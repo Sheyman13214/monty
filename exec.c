@@ -1,5 +1,4 @@
 #include "monty.h"
-#define EXECUTE_H
 /**
 * execute - function executes the opcode
 * @stack: head linked list - stack
@@ -49,5 +48,5 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 		free(content);
 		free_stack(*stack);
 		exit(EXIT_FAILURE); }
-	return 1;
+	return (1);
 }
